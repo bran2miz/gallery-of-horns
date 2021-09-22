@@ -22,7 +22,7 @@ class HornedBeasts extends Component {
       <div>
         <Card bg='info' style={{width: '18rem', height: '38rem'}} border='primary'>
           <Card.Title><h2>{this.props.title}</h2></Card.Title>
-          <img />
+          <img alt=''/>
           <Card.Img variant="top" src={this.props.image_url} alt={this.props.keyword} />
           <Card.Body>
             <Card.Text>
@@ -30,7 +30,7 @@ class HornedBeasts extends Component {
             </Card.Text>
             <p>Number of horns: {this.props.horns}</p>
             <span>Number of times liked: {this.state.voteBeast}</span>
-            <img src={heart} onClick={this.vote} width='20px' height='auto' />
+            <img src={heart} onClick={this.vote} width='20px' height='auto' alt='heart'/>
           </Card.Body>
         </Card>
       </div>
