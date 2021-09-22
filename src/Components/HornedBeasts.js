@@ -20,7 +20,7 @@ class HornedBeasts extends Component {
   render(){
     return(
       <div>
-        <Card bg='secondary' style={{width: '18rem', height: '38rem'}} border='info'>
+        <Card bg='info' style={{width: '18rem', height: '38rem'}} border='primary'>
           <Card.Title><h2>{this.props.title}</h2></Card.Title>
           <img />
           <Card.Img variant="top" src={this.props.image_url} alt={this.props.keyword} />
