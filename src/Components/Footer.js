@@ -1,10 +1,11 @@
 import React from 'react';
+import '../App.css';
 
 class Footer extends React.Component {
   render(){
     return(
       <>
-        <h2>Footer</h2>
+        <h3>Created by: {this.props.author}</h3>
       </>
     );
   }

@@ -20,7 +20,7 @@ class App extends React.Component{
       <Container>
         <Header title="Gallery of Horns"/>
         <Main data= {this.state.beastData} />
-        <Footer text="This is Site is Created by Brandon Mizutani"/>
+        <Footer author="Brandon Mizutani"/>
       </Container>
     );
   }

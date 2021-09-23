@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import Card from 'react-bootstrap/Card';
 import heart from '../img/heart.png';
+import '../App.css';
 
 
 class HornedBeasts extends Component {
