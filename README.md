@@ -1,12 +1,13 @@
 # This is my Project for the Horned-Beasts
 
-I built a React app that renders Horned Animals. 
+I built a React app that renders Horned Animals.
 
 ## Author: Brandon Mizutani
 
 Links and Resources
 
-  - MDN
+  -MDN
+  -Netlify: https://beastly-horned.netlify.app/
 
 ## Lab 01 - Beginning React JS
 
@@ -34,3 +35,12 @@ Start time: 6:45pm
 Finish time: 10:00pm
 
 Actual time needed to complete: 3 1/2 hours
+
+### Reflections
+
+1. A question within the context of today’s lab assignment
+ Is there a particular reason why I need to add alts to my img tags? I was stuck on being able to render my page on netlify unless I provided alts to two of my img tags.
+2. An observation about the lab assignment, or related ‘Ah-hah!’ moment
+  Implementing the alts to the img tags in order for my page to render on netlify. By researching the answer on netlify's forum, I was able to do the CI= npm run build and figuring out what the issue was.
+3. How long you spent working on this assignment
+With all the fun CSS and implementation of state and Props, I would say it took me roughly 4 hours to complete this assignment.
