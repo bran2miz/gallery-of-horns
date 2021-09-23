@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
+}
+
+.card {
+  align-items: center;
+  margin-left: 30px;
+  color: darkblue;
+}
+
+.container {
+  background-color: darkblue;
+}
+
+h1 {
+  text-align: center;
+  color: #61dafb;
+  text-decoration: underline cyan;
+}
+
+h3 {
+  text-align: center;
+  color: #61dafb;
+  margin-top: 30px;
 }
 
 .App-logo {
@@ -21,7 +44,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
