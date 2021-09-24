@@ -31,7 +31,7 @@ class HornedBeasts extends Component {
             </Card.Text>
             <p>Number of horns: {this.props.horns}</p>
             <span>Number of times liked: {this.state.voteBeast}</span>
-            <img src={heart} onClick={this.vote} width='20px' height='auto' alt='heart'/>
+            <p>Click on the Heart to Like! <img src={heart} onClick={this.vote} width='20px' height='auto' alt='heart'/></p>
           </Card.Body>
         </Card>
       </div>
