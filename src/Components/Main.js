@@ -10,13 +10,8 @@ class Main extends React.Component {
       <div>
         <Container>
           <Row xs={1} md={3} className="g-4">
-            {this.props.data.map( (value) =>
-              <HornedBeasts title={value.title}
-                image_url={value.image_url}
-                description={value.description}
-                horns={value.horns}
-                onClick={value.handleClick}
-                alt="some-horned-beast" rounded fluid/>
+            {this.props.data.map(beast =>
+              <HornedBeasts beastarr={beast} />
             )}
           </Row>
         </Container>

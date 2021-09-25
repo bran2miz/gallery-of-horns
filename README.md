@@ -58,3 +58,35 @@ With all the fun CSS and implementation of state and Props, I would say it took 
 
 4. What still puzzles me, or what do I need to learn more about?
   I had a bit of an issue in regards to differentiating image_URL vs image within the props . I had trouble finding the reason why the pictures weren't rendering. It was only when I realized that within the main.js, more specifically within my Container, that I needed to write image_url instead of just img or image.
+
+## Lab 03 - Passing Functions in Props
+
+### Reflections
+
+Number and name of feature: functions-in-props
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 12:52
+
+Finish time: 2:50
+
+Actual time needed to complete: Around 2 hours
+
+## Retrospective
+
+1. What went well, that I might forget if I don’t write down?
+
+This assignment went surprisingly well! Implementing modals were pretty simple, using the code within the bootstrap forum. I added another card css within each horned beasts card with the description and the number of horns.
+
+2. What did I learn today?
+
+I learned about modals, and how to implement them using props and states. Because the natural flow in React is unilateral, I first had to create a state in the parent (App.js) and pass it down as props to its children (Main.js, HornedBeasts.js, and SelectedBeast.js)
+
+3. What should I do differently next time?
+
+To examine each and every part of the code. I had some problems again rendering the pictures and content. It was only after I realized that I needed to define each object in my HornedBeast.js with dot notation and the object I created in the Main (beastarr) that it was finally able to render properly.
+
+4. What still puzzles me, or what do I need to learn more about?
+
+I guess later down the line, im interested to see onClick events within ReactJs link us to different pages on our site.
