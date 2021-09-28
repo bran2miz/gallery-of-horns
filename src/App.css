@@ -3,16 +3,25 @@
   background-color: #61dafb;
 }
 
-.card {
-  align-items: center;
-  margin-left: 17px;
-  color: darkblue;
-  margin-bottom: 30px;
+body {
+  background-image: url("../src/img/stars.jpg");
+  background-size: 100%, 100%;
+  background-repeat: repeat;
 }
 
-.card:hover {
+.frontCard .card {
+  align-items: center;
+  color: darkblue;
+}
+
+.frontCard .card:hover {
   border-color: lightcyan;
   border-width: 8px;
+}
+
+.uni-card {
+  margin-left: 40px;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -65,3 +74,4 @@ h3 {
     transform: rotate(360deg);
   }
 }
+

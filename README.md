@@ -73,20 +73,16 @@ Finish time: 2:50
 
 Actual time needed to complete: Around 2 hours
 
-## Retrospective
+### Retrospective
 
 1. What went well, that I might forget if I don’t write down?
-
-This assignment went surprisingly well! Implementing modals were pretty simple, using the code within the bootstrap forum. I added another card css within each horned beasts card with the description and the number of horns.
+  This assignment went surprisingly well! Implementing modals were pretty simple, using the code within the bootstrap forum. I added another card css within each horned beasts card with the description and the number of horns.
 
 2. What did I learn today?
-
-I learned about modals, and how to implement them using props and states. Because the natural flow in React is unilateral, I first had to create a state in the parent (App.js) and pass it down as props to its children (Main.js, HornedBeasts.js, and SelectedBeast.js)
+  I learned about modals, and how to implement them using props and states. Because the natural flow in React is unilateral, I first had to create a state in the parent (App.js) and pass it down as props to its children (Main.js, HornedBeasts.js, and SelectedBeast.js)
 
 3. What should I do differently next time?
-
-To examine each and every part of the code. I had some problems again rendering the pictures and content. It was only after I realized that I needed to define each object in my HornedBeast.js with dot notation and the object I created in the Main (beastarr) that it was finally able to render properly.
+  To examine each and every part of the code. I had some problems again rendering the pictures and content. It was only after I realized that I needed to define each object in my HornedBeast.js with dot notation and the object I created in the Main (beastarr) that it was finally able to render properly.
 
 4. What still puzzles me, or what do I need to learn more about?
-
-I guess later down the line, im interested to see onClick events within ReactJs link us to different pages on our site.
+  I guess later down the line, im interested to see onClick events within ReactJs link us to different pages on our site.
