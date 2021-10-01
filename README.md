@@ -86,3 +86,21 @@ Actual time needed to complete: Around 2 hours
 
 4. What still puzzles me, or what do I need to learn more about?
   I guess later down the line, im interested to see onClick events within ReactJs link us to different pages on our site.
+
+## Retrospective
+
+1. What went well, that I might forget if I don’t write down?
+  I think overall the Horned Beasts lab went well this week! I think what went well was the CSS (through trial and error of course). I think also creating the modal went surprisingly well, but again had to make adjustments with the CSS.
+
+2. What did I learn today?
+  I learned a great deal about forms today, especially on how we all can write code differently but attain the same results. In the class demo, I had similar code, but just added in different areas of my js files.
+
+3. What should I do differently next time?
+  I think mapping it out like our instructor mentioned would've helped me out a bit more. I think I definitely go in head first with a general idea of how to code, but then I get stuck.
+
+4. What still puzzles me, or what do I need to learn more about?
+  It is pretty small, but I think the % and the !== 0 aspect is still quite puzzling to me.
+  (ie let integerArr = arr.filter(num => num % 2 === 1);)
+
+5. Is the assignment complete? If not, where exactly did you leave off, and what work remains?
+  I completed the lab! 
