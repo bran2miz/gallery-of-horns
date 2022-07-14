@@ -7,9 +7,11 @@ import Container from 'react-bootstrap/Container';
 class Main extends React.Component {
   render () {
     let beastArray = this.props.data.map(beast =>
+      // mapping through the data using map because it is an array
       <HornedBeasts
         beastarr={beast}
         selectedTheBeast={this.props.selectedTheBeast} />);
+      // passing in each beast object as props to horned beasts and it is called beastarr
     return(
       <div>
         <Container>
